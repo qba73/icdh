@@ -2,6 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/qba73/icdh)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/qba73/icdh)
 [![Go Report Card](https://goreportcard.com/badge/github.com/qba73/icdh)](https://goreportcard.com/report/github.com/qba73/icdh)
+[![Go Reference](https://pkg.go.dev/badge/github.com/qba73/icdh@v0.1.0.svg)](https://pkg.go.dev/github.com/qba73/icdh@v0.1.0)
 
 
 
