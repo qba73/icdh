@@ -1,4 +1,7 @@
 [![Go](https://github.com/qba73/icdh/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/qba73/icdh/actions/workflows/go.yml)
+![GitHub](https://img.shields.io/github/license/qba73/icdh)
+
+
 
 # icdh
 ```icdh``` is a Go client library for NGINX Ingress Controller Service Insight API.
