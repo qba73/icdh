@@ -68,6 +68,16 @@ func (c client) GetStats(ctx context.Context, hostname string) (Stats, error) {
 	return s, nil
 }
 
+func (c client) GetTSStats(ctx context.Context, name string) (Stats, error) {
+	u := fmt.Sprintf("%s/probe/ts/%s", c.baseURL, name)
+	var h healthServiceResp
+	if err := c.get(ctx, u, &h); err != nil {
+		return Stats{}, fmt.Errorf("retriving TS stats for name %s, %w", name, err)
+	}
+	s := Stats(h)
+	return s, nil
+}
+
 func (c client) get(ctx context.Context, url string, data interface{}) error {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
