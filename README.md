@@ -6,7 +6,7 @@
 
 # icdh
 
-```icdh``` is a Go client library for NGINX Ingress Controller Deep Health Service API.
+```icdh``` is a Go client library for [NGINX Ingress Controller Deep Service Insight](https://docs.nginx.com/nginx-ingress-controller/logging-and-monitoring/service-insight/) API.
 
 ## Using the Go library
 
